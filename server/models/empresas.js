@@ -3,7 +3,7 @@ const Envio = require('./envio');
 class Empresas {
   Fedex() {
     const envio = new Envio();
-    envio.setEmpresaFedex("asd").data();
+    envio.setEmpresaFedex().data();
   }
 
   CorreoEcuador() {

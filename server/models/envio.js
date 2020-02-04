@@ -13,10 +13,8 @@ class Envio {
     this.servientregaModel = servientregaModel;
   };
 
-  setEmpresaFedex(param) {
-    const test = param
-    console.log(test)
-    return fedexModel;
+  setEmpresaFedex() {
+    return this.fedexModel;
   }
 
   setEmpresaCorreosEcuador() {
